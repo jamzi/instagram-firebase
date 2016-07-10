@@ -1,4 +1,8 @@
 {    
     "photos": [
+        { 
+            "src": "bla",
+            "likes": 0
+        }
     ]
 }
