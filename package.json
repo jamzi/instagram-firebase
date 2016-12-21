@@ -5,13 +5,8 @@
   "homepage": "http://ionicframework.com/",
   "private": true,
   "scripts": {
-    "build": "ionic-app-scripts build",
-    "watch": "ionic-app-scripts watch",
-    "serve:before": "watch",
-    "emulate:before": "build",
-    "deploy:before": "build",
-    "build:before": "build",
-    "run:before": "build"
+    "ionic:build": "ionic-app-scripts build",
+    "ionic:serve": "ionic-app-scripts serve"
   },
   "dependencies": {
     "@angular/common": "2.2.1",
@@ -26,14 +21,14 @@
     "@ionic/storage": "1.1.6",
     "angularfire2": "^2.0.0-beta.6",
     "firebase": "^3.6.4",
-    "ionic-angular": "2.0.0-rc.3-201612122136",
+    "ionic-angular": "2.0.0-rc.4",
     "ionic-native": "2.2.11",
     "ionicons": "3.0.0",
     "rxjs": "5.0.0-beta.12",
     "zone.js": "0.6.26"
   },
   "devDependencies": {
-    "@ionic/app-scripts": "0.0.46",
+    "@ionic/app-scripts": "0.0.47",
     "@types/request": "0.0.30",
     "typescript": "2.0.9"
   },
